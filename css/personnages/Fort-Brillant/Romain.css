@@ -1,0 +1,38 @@
+@font-face{font-family: fort; src: url(/css/font/IMFellDoublePicaSC-Regular.ttf);}
+
+main{
+    background: linear-gradient(180deg,#e29f21 0%, rgb(180, 174, 82) 95%);
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/les_bois_chers.jpg);
+    background-position-y: 30%;
+}
+
+h1{
+    font-family: fort;
+}
+
+h2{
+    font-family: fort;
+}
+
+.infos{
+    background-color: rgb(226, 190, 73);
+}
+
+#con1{
+    border: 0.15rem solid rgb(6, 72, 148);
+}
+
+#con2{
+    border: 0.15rem solid rgb(179, 0, 0);
+}
+
+#con3{
+    border: 0.15rem solid rgb(58, 140, 179);
+}
+
+#con4{
+    border: 0.15rem solid rgb(77, 21, 122);
+}

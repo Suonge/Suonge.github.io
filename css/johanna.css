@@ -1,0 +1,175 @@
+@font-face{font-family: navigation; src: url(font/InknutAntiqua-SemiBold.ttf);}
+
+main{
+    background: linear-gradient(180deg, rgba(82, 219, 60, 0.3) 0%, rgba(255, 200, 57, 0.3) 32.29%, rgba(165, 60, 202, 0.3) 61.98%, rgba(151, 71, 204, 0.3) 65.62%, rgba(40, 154, 218, 0.3) 93.75%), #FFFFFF;
+    background-image: url(/images/johanna/sylvain-tornambe-coffre-de-picsou-00000.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+main h1{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-family: navigation;
+    color: #FFFFFF;
+    
+}
+
+#carte{
+    border: 1px solid black;
+    width: 70%;
+    display: flex;
+    background-color: black;
+    margin-bottom: 2rem;
+}
+
+#fabula{
+    width: 100%;
+}
+
+#carte .logo{
+    position: absolute;
+    width: 4.2%;
+}
+
+#pirate{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#cloakhoover{
+    margin-left: 18%;
+    margin-top: 1.5%;
+}
+
+#atolcost{
+    margin-left: 30%;
+    margin-top: 2.5%;
+}
+
+#eugenium{
+    margin-left: 41.5%;
+    margin-top: 5%;
+}
+
+#manicrome{
+    margin-left: 54%;
+    margin-top: 2.5%;
+}
+
+#mysandria{
+    margin-left: 3.4%;
+    margin-top: 11.5%;
+}
+
+#westphalian{
+    margin-left: 37%;
+    margin-top: 16%;
+}
+
+#celestia{
+    margin-left: 15%;
+    margin-top: 25%;
+}
+
+#pacifia{
+    margin-left: 33%;
+    margin-top: 25%;
+}
+
+#fort-brillant{
+    margin-left: 54%;
+    margin-top: 24%;
+}
+
+#loisiria{
+    margin-left: 27%;
+    margin-top: 36%;
+}
+
+#historian{
+    margin-left: 42.5%;
+    margin-top: 38.5%;
+}
+
+#nostalgian{
+    margin-left: 60%;
+    margin-top: 42%;
+}
+
+#shanna{
+    margin-left: 10%;
+    margin-top: 47%;
+}
+
+#lagartha{
+    margin-left: 32%;
+    margin-top: 48%;
+}
+
+#megara{
+    margin-left: 42%;
+    margin-top: 47%;
+}
+
+#bianca{
+    margin-left: 59%;
+    margin-top: 48%;
+}
+
+#aurore{
+    position: absolute;
+    width: 1.2%;
+    margin-left: 47%;
+    margin-top: 22%;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+#rubriques{
+    width: 70%;
+}
+
+.etages{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 3rem;
+}
+
+.rubrique img{
+    width: 20rem;
+    border: 1px solid black;
+}
+
+#presentation{
+    background-image: url(/images/miniatures/video\ 16.png);
+    background-size: cover;
+}
+
+#record{
+    background-image: url(/images/johanna/vendeuses.png);
+    background-size: cover;
+}
+
+.blanc{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 85.42%), url(image.png);
+    width: 25rem;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    padding: 0.2rem;
+    border: 1px solid black;
+}
+
+a{text-decoration: none;color: black;}
+
+.rubrique h2{font-family: navigation;}

@@ -1,0 +1,165 @@
+@font-face{font-family: navigation; src: url(font/InknutAntiqua-SemiBold.ttf);}
+@font-face {font-family: atolcost; src: url(font/MuseoModerno-Regular.ttf);}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+#corps{
+    width: 70%;
+    margin-top: 6rem;
+    background: #D9D9D9;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pays{
+    border-radius: 30px 30px 0px 0px;
+    width: 100%;
+    height: 30rem;
+}
+
+#image{
+    border-radius: 30rem;
+    border: 0.1rem solid white;
+    width: 20rem;
+    margin-top: -8rem;
+}
+
+h1{
+    margin-top: 1rem;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+p{
+    margin: 1rem 3rem 0.5rem 3rem;
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 2rem;
+}
+
+#infos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.infos{
+    height: 15rem;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#persoslie{
+    width: 35%;
+}
+
+#histoirelie{
+    width: 35%;
+}
+
+#nation{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#nation a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#nation img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+
+#persoslie2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+#persoslie2 article{
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#persoslie2 img{
+    width: 100px;
+    height: 100px;
+}
+
+#persoslie2 h4{
+    font-size: 1.2rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 1.2rem;
+    color: #202020;
+}
+
+a{
+    text-decoration: none;
+}
+
+h4{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+h5{
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.supplement{
+    margin-top: 3rem;
+}
+
+.supp{
+    background-color: aquamarine;
+    width: 45%;
+    border-radius: 25px;
+    border: 0.2rem black solid;
+}
+
+iframe{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid black;
+}

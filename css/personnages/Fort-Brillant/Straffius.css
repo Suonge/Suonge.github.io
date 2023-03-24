@@ -1,0 +1,38 @@
+@font-face{font-family: fort; src: url(/css/font/IMFellDoublePicaSC-Regular.ttf);}
+
+main{
+    background: linear-gradient(180deg, #3ed4ee 28.13%, rgb(37, 73, 235) 100%);
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/fort-brillant-nord.jpg);
+    background-position-y: 30%;
+}
+
+h1{
+    font-family: fort;
+}
+
+h2{
+    font-family: fort;
+}
+
+.infos{
+    background-color: rgb(97, 188, 230);
+}
+
+#con1{
+    border: 0.15rem solid #8b287e;
+}
+
+#con2{
+    border: 0.15rem solid #443831;
+}
+
+#con3{
+    border: 0.15rem solid rgb(27, 78, 34);
+}
+
+#con4{
+    border: 0.15rem solid rgb(224, 192, 64);
+}

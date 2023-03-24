@@ -1,0 +1,40 @@
+@font-face{font-family: navigation; src: url(font/InknutAntiqua-SemiBold.ttf);}
+
+main{
+    background: linear-gradient(180deg, #ff4040 28.13%, #c3c9ce 100%);
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/celestia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+h1{
+    font-family: navigation;
+}
+
+h2{
+    font-family: navigation;
+}
+
+.infos{
+    background-color: rgba(198, 235, 252, 0.76);
+}
+
+#con1{
+    border: 0.15rem solid rgb(164, 230, 250);
+}
+
+#con2{
+    border: 0.15rem solid rgb(88, 4, 4);
+}
+
+#con3{
+    border: 0.15rem solid rgb(83, 148, 77);
+}
+
+#nation img{
+    border: 0.2rem solid rgb(131, 131, 131);
+}

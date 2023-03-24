@@ -1,0 +1,40 @@
+@font-face{font-family: navigation; src: url(font/InknutAntiqua-SemiBold.ttf);}
+
+main{
+    background: linear-gradient(180deg, #bae9f1 28.13%, #ffffff 100%);
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/fond\ blanche.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+h1{
+    font-family: navigation;
+}
+
+h2{
+    font-family: navigation;
+}
+
+.infos{
+    background-color: rgba(198, 235, 252, 0.76);
+}
+
+#con1{
+    border: 0.15rem solid rgb(190, 5, 5);
+}
+
+#con2{
+    border: 0.15rem solid rgb(153, 214, 230);
+}
+
+#con3{
+    border: 0.15rem solid rgb(209, 203, 125);
+}
+
+#nation img{
+    border: 0.2rem solid rgb(131, 131, 131);
+}

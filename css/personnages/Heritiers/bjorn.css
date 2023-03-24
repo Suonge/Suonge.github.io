@@ -1,0 +1,44 @@
+@font-face {font-family: atolcost; src: url(font/MuseoModerno-Regular.ttf);}
+@font-face{font-family: navigation; src: url(font/InknutAntiqua-SemiBold.ttf);}
+
+main{
+    background: linear-gradient(180deg, #1b2072 0%, #aa70b6 100%);
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/mysandria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+h1{
+    font-family: navigation;
+}
+
+h2{
+    font-family: navigation;
+}
+
+.infos{
+    background-color: rgba(93, 106, 218, 0.76);
+}
+
+#con1{
+    border: 0.15rem solid rgb(23, 21, 155);
+}
+
+#con2{
+    border: 0.15rem solid rgb(95, 19, 19);
+}
+
+#con3{
+    border: 0.15rem solid black;
+}
+
+#nation img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    border: 0.2rem solid rgb(255, 0, 255);
+}

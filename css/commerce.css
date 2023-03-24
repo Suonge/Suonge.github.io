@@ -1,0 +1,51 @@
+@font-face{font-family: navigation; src: url(font/InknutAntiqua-SemiBold.ttf);}
+@font-face {font-family: texte;src: url(font/InriaSans-Regular.ttf);}
+
+main{
+    background: linear-gradient(180deg, rgba(82, 219, 60, 0.3) 0%, rgba(255, 200, 57, 0.3) 32.29%, rgba(165, 60, 202, 0.3) 61.98%, rgba(151, 71, 204, 0.3) 65.62%, rgba(40, 154, 218, 0.3) 93.75%), #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-family: navigation;
+    
+}
+
+#commerce{
+    width: 70%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #A6A6A6 100%);
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+#commerce img{
+    width: 100%;
+    background: url(Carte_Avancee.jpg);
+    border-radius: 30px 30px 1px 1px;
+}
+
+main h2{
+    margin: 6rem 0rem 2rem 0rem;
+    font-size: 2rem;
+    font-family: navigation;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+main h3{
+    font-size: 1.6rem;
+    font-family: navigation;
+    margin: 3rem 0rem 0rem 1.2rem;
+}
+
+main p{
+    font-family: navigation;
+    margin: 1.2rem;
+    font-size: 1.1rem;
+}

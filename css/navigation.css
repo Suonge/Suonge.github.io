@@ -1,0 +1,49 @@
+@font-face{
+    font-family: navigation;
+    src: url(font/InknutAntiqua-SemiBold.ttf);
+}
+
+#navigation{
+    background-color: black;
+    display: flex;
+}
+
+#navigation a{
+    text-decoration: none;
+}
+
+#bouton4{
+    width: 6%;
+    display: flex;
+    border: 1px solid black;
+}
+
+#bouton4 a img{
+    width: 100%;
+    height: 100%;
+}
+
+#navigation .boutonNav{
+    width: 23.5%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+}
+
+.boutonNav p{
+    font-size: 2.2rem;
+    font-family: navigation;
+    -webkit-text-stroke: 2px black;
+}
+
+#nav1{background-image: url("/images/autres/baniere\ p1.png");}
+#nav2{background-image: url("/images/autres/baniere\ p2.png");}
+#nav3{background-image: url("/images/autres/baniere\ p3.png");}
+#nav4{background-image: url("/images/autres/baniere\ p4.png");}
+
+#nav1 p{color: rgba(133, 240, 83, 1);}
+#nav2 p{color: rgba(241, 139, 18, 1);}
+#nav3 p{color: rgba(114, 31, 250, 1);}
+#nav4 p{color: rgba(84, 173, 255, 1);}

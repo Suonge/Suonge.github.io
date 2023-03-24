@@ -1,0 +1,312 @@
+@font-face{font-family: navigation; src: url(font/InknutAntiqua-SemiBold.ttf);}
+@font-face {font-family: heritiers;src: url(/css/font/Cinzel-Bold.ttf);}
+@font-face{font-family: atolcost; src: url(/css/font/Metamorphous-Regular.ttf);}
+@font-face{font-family: fort; src: url(/css/font/IMFellDoublePicaSC-Regular.ttf);}
+@font-face{font-family: vacance; src: url(/css/font/FredokaOne-Regular.ttf);}
+@font-face{font-family: lgbt; src: url(/css/font/RobotoMono-Medium.ttf);}
+@font-face{font-family: mafia; src: url(/css/font/CorleoneDue.TTF);}
+@font-face{font-family: steam; src: url(/css/font/Steamwheel.ttf);}
+@font-face {font-family: robot;src: url(/css/font/Valorant\ Font.ttf);}
+@font-face {font-family: west;src: url(/css/font/TEXAT\ BOLD\ PERSONAL\ USE___.otf);}
+
+
+a{
+    text-decoration: none;
+}
+
+main{
+    background: linear-gradient(180deg, rgba(82, 219, 60, 0.3) 0%, rgba(255, 200, 57, 0.3) 32.29%, rgba(165, 60, 202, 0.3) 61.98%, rgba(151, 71, 204, 0.3) 65.62%, rgba(40, 154, 218, 0.3) 93.75%), #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+main h1{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-family: navigation;
+}
+
+.pays{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.14rem solid #000000;
+    margin-bottom: 3rem;
+}
+
+.pays h2{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color:white;
+}
+
+.image{
+    width: 100%;
+    height: 40rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.personnages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    column-gap: none;
+    justify-items: center;
+    margin-top: 4rem;
+}
+
+/* .personnages2{
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    margin-top: 4rem;
+} */
+
+.personnage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.personnages img{
+    border-radius: 30rem;
+    border: 0.1rem solid white;
+    width: 17rem;
+}
+
+.personnages h3{
+    margin: 0.7rem 0rem 1.5rem 0rem;
+    color: white;
+}
+
+.personnages2 img{
+    border-radius: 30rem;
+    border: 0.1rem solid white;
+    width: 17rem;
+}
+
+.personnages2 h3{
+    margin: 0.7rem 0rem 1.5rem 0rem;
+    color: white;
+}
+
+.personnages2{
+    margin-top: 3rem;
+    margin-bottom: -4rem;
+}
+
+
+
+
+
+
+
+
+
+#oniris{background-color: #164002;}
+#oniris h2{font-family: heritiers;}
+
+#onirisI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #164002 100%), url(/images/pays/oniris.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.onirisP{
+    font-family: heritiers;
+    font-size: 1.6rem;
+}
+
+
+
+
+#celestia{background-color: #7a9478;}
+
+#celestia h2{font-family: navigation;}
+
+#celestiaI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #7a9478 100%), url(/images/pays/celestia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.celestiaP{
+    font-family: navigation;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+#atolcost{background-color: #0F001C;}
+
+#atolcost h2{font-family: atolcost;}
+
+#atolcostI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0F001C 100%), url(/images/pays/atolcost.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.atolcostP{
+    font-family: atolcost;
+    font-size: 1.6rem;
+}
+
+
+
+
+#fortbrillant{background-color: #000F34;}
+
+#fortbrillant h2{font-family: fort;}
+
+#fortbrillantI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000F34 100%), url(/images/pays/fort-brillant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fortbrillantP{
+    font-family: fort;
+    font-size: 1.6rem;
+    margin-bottom: 0rem;
+}
+
+#fortbrillantP2{
+    font-family: fort;
+    font-size: 1.6rem;
+    margin-top: -1rem;
+}
+
+
+
+
+#loisiria{background-color: #3094bb;}
+
+#loisiria h2{font-family: vacance;}
+
+#loisiriaI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #3094bb 100%), url(/images/pays/loisiria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loisiriaP{
+    font-family: vacance;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+#mysandria{background-color: #cf1865;}
+
+#mysandria h2{font-family: lgbt;}
+
+#mysandriaI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #cf1865 100%), url(/images/pays/mysandria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mysandriaP{
+    font-family: lgbt;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+#pacifia{background-color: #5f5d5e;}
+
+#pacifia h2{font-family: mafia;}
+
+#pacifiaI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #5f5d5e 100%), url(/images/pays/pacifiafond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pacifiaP{
+    font-family: mafia;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+#cloak{background-color: #9c723c;}
+
+#cloak h2{font-family: steam;}
+
+#cloakI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #9c723c 100%), url(/images/pays/Cloakhoover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cloakP{
+    font-family: steam;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+#eugenium{background-color: #633854;}
+
+#eugenium h2{font-family: robot;}
+
+#eugeniumI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #633854 100%), url(/images/pays/eugenium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eugeniumP{
+    font-family: robot;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+#west{background-color: #d69c1e;}
+
+#west h2{font-family: west;}
+
+#westI{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #d69c1e 100%), url(/images/pays/westphalian.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.westP{
+    font-family: west;
+    font-size: 1.3rem;
+}
