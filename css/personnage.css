@@ -163,3 +163,15 @@ iframe{
     margin-bottom: 1rem;
     border: 0.1rem solid black;
 }
+
+@media only screen and (max-width: 1800px) {
+    #corps{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1650px) {
+    #corps{
+        width: 85%;
+    }
+}

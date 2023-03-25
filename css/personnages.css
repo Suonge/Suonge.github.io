@@ -87,6 +87,7 @@ main h1{
 .personnages h3{
     margin: 0.7rem 0rem 1.5rem 0rem;
     color: white;
+    font-size: 1.2rem;
 }
 
 .personnages2 img{
@@ -310,3 +311,10 @@ main h1{
     font-family: west;
     font-size: 1.3rem;
 }
+
+
+@media only screen and (max-width: 1735px) {
+    .pays{
+        width: 90%;
+    }
+  }
