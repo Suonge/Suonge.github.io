@@ -329,6 +329,12 @@ main h1{
         font-family: atolcost;
         font-size: 1.4rem;
     }
+
+    .celestiaP{
+        font-family: navigation;
+        font-size: 1.4rem;
+    }
+    
 }
 
 @media only screen and (max-width: 1420px) {
