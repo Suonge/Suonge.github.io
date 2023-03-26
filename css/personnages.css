@@ -87,7 +87,7 @@ main h1{
 .personnages h3{
     margin: 0.7rem 0rem 1.5rem 0rem;
     color: white;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 .personnages2 img{
@@ -309,7 +309,7 @@ main h1{
 
 .westP{
     font-family: west;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 
@@ -317,4 +317,23 @@ main h1{
     .pays{
         width: 90%;
     }
-  }
+}
+
+@media only screen and (max-width: 1550px) {
+    .westP{
+        font-family: west;
+        font-size: 1.1rem;
+    }
+
+    .atolcostP{
+        font-family: atolcost;
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    .westP{
+        font-family: west;
+        font-size: 1rem;
+    }
+}
