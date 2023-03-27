@@ -1,0 +1,38 @@
+@font-face{font-family: lgbt; src: url(/css/font/RobotoMono-Medium.ttf);}
+
+main{
+    background: linear-gradient(180deg, #2b50c9 28.13%, #f343aa 100%);
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/mysandria.png);
+}
+
+h1{
+    font-family: lgbt;
+}
+
+h2{
+    font-family: lgbt;
+}
+
+.infos{
+    background-color: rgb(58, 97, 206);
+}
+
+#con1{
+    border: 0.15rem solid rgb(218, 62, 192);
+}
+
+#con2{
+    border: 0.15rem solid rgb(30, 109, 146);
+}
+
+#con3{
+    border: 0.15rem solid rgb(39, 66, 37);
+}
+
+#con4{
+    border: 0.15rem solid rgb(83, 46, 143);
+}
+
