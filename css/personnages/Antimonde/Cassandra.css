@@ -39,3 +39,7 @@ h2{
 #corps{
     background: #414141;
 }
+
+#infos h2{
+    color: rgb(140, 7, 7);
+}
