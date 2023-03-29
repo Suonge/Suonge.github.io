@@ -1,0 +1,41 @@
+@font-face{font-family: anti; src: url(/css/font/DEMON_NI.TTF);}
+
+main{
+    background: linear-gradient(180deg, #000000 30%, #4d0808 100%);
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #414141 100%), url(/images/pays/anti-monde.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-position-y: 50%; */
+}
+
+h1{
+    font-family: anti;
+}
+
+h2{
+    font-family: anti;
+    font-size: 2.8rem;
+}
+
+.infos{
+    background-color: rgb(32, 32, 32);
+}
+
+#con1{
+    border: 0.15rem solid rgb(255, 255, 255);
+}
+
+#con2{
+    border: 0.15rem solid rgb(88, 21, 21);
+}
+
+#con3{
+    border: 0.15rem solid black;
+}
+
+#corps{
+    background: #414141;
+}

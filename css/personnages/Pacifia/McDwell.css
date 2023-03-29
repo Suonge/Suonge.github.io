@@ -1,0 +1,43 @@
+@font-face{font-family: mafia; src: url(/css/font/CorleoneDue.TTF);}
+
+main{
+    background: linear-gradient(180deg, #dd5800 0%, #464646 100%);
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/pacifia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+h1{
+    font-family: mafia;
+}
+
+h2{
+    font-family: mafia;
+}
+
+.infos{
+    background-color: rgb(204, 75, 0);
+}
+
+#con1{
+    border: 0.15rem solid rgb(72, 36, 92);
+}
+
+#con2{
+    border: 0.15rem solid rgb(202, 106, 181);
+}
+
+#con3{
+    border: 0.15rem solid black;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1.2rem;
+    color: #202020;
+}

@@ -1,0 +1,37 @@
+@font-face {font-family: west;src: url(/css/font/TEXAT\ BOLD\ PERSONAL\ USE___.otf);}
+
+main{
+    background: linear-gradient(180deg, #2c2c2c 30%, #646464 100%);
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/westphalian.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+h1{
+    font-family: west;
+}
+
+h2{
+    font-family: west;
+}
+
+.infos{
+    background-color: rgb(87, 87, 87);
+}
+
+#con1{
+    border: 0.15rem solid rgb(165, 102, 7);
+}
+
+#con2{
+    border: 0.15rem solid rgb(49, 49, 49);
+}
+
+#con3{
+    border: 0.15rem solid black;
+}
+
