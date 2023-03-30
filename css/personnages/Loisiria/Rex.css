@@ -5,7 +5,8 @@ main{
 }
 
 #pays{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/loisiria.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/fond\ rex.png);
+    background-size: cover;
 }
 
 h1{
