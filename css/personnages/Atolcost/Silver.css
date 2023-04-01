@@ -1,5 +1,4 @@
-@font-face {font-family: atolcost; src: url(font/MuseoModerno-Regular.ttf);}
-
+@font-face{font-family: atolcost; src: url(/css/font/Metamorphous-Regular.ttf);}
 main{
     background: linear-gradient(180deg, #3cc2e4 28.13%, #152b75 100%);
 }
