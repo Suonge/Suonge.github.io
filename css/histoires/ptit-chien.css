@@ -1,0 +1,57 @@
+@font-face{font-family: police; src: url(/css/font/Overpass-Regular.ttf);}
+
+main{
+    background: linear-gradient(180deg, #fbc546 0%, #c0a951 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+#corps{
+    width: 70%;
+    margin-top: 6rem;
+    background: #D9D9D9;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pays{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/Cloakhoover.png);
+    border-radius: 30px 30px 0px 0px;
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#personnages{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.test{
+    width: 30%;
+    border-radius: 100%;
+    border: 0.15rem solid black;
+}
+
+h1{
+    font-family: police;
+    margin-top: 2rem;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: police;
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+}
