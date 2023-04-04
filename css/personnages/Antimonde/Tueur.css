@@ -29,7 +29,7 @@ h2{
 }
 
 #con2{
-    border: 0.15rem solid rgb(168, 57, 168);
+    border: 0.15rem solid rgb(73, 50, 80);
 }
 
 #con3{
@@ -42,4 +42,12 @@ h2{
 
 #infos h2{
     color: rgb(140, 7, 7);
+}
+
+.tueur {
+    margin-bottom: 4rem;
+}
+
+p{
+    font-weight: 600;
 }

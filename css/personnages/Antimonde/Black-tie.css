@@ -24,16 +24,16 @@ h2{
     background-color: rgb(32, 32, 32);
 }
 
-#con1{
-    border: 0.15rem solid rgb(255, 255, 255);
+#con2{
+    border: 0.15rem solid rgb(49, 39, 54);
 }
 
-#con2{
+#con1{
     border: 0.15rem solid rgb(88, 21, 21);
 }
 
 #con3{
-    border: 0.15rem solid black;
+    border: 0.15rem solid rgb(175, 3, 3);
 }
 
 #corps{
