@@ -21,6 +21,10 @@ h2{
     font-family: atolcost;
 }
 
+h4{
+    font-size: 1.8rem;
+}
+
 .infos{
     background-color: rgba(27, 46, 109, 0.76);
 }
