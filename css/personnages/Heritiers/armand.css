@@ -6,7 +6,10 @@ main{
 }
 
 #pays{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/celestia.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #D9D9D9 100%), url(/images/pays/fond\ jaune.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
 }
 
 h1{
@@ -30,7 +33,7 @@ h2{
 }
 
 #con3{
-    border: 0.15rem solid black;
+    border: 0.15rem solid rgb(43, 157, 202);
 }
 
 #con4{

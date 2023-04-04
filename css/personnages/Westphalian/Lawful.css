@@ -29,10 +29,14 @@ h2{
 }
 
 #con2{
-    border: 0.15rem solid rgb(61, 53, 48);
+    border: 0.15rem solid rgb(255, 234, 46);
 }
 
 #con3{
-    border: 0.15rem solid black;
+    border: 0.15rem solid rgb(123, 42, 1);
+}
+
+#con4{
+    border: 0.15rem solid rgb(255, 92, 10);
 }
 
