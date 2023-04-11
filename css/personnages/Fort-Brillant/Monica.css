@@ -28,7 +28,7 @@ h2{
 }
 
 #con2{
-    border: 0.15rem solid rgb(179, 0, 0);
+    border: 0.15rem solid rgb(14, 7, 17);
 }
 
 #con3{
@@ -37,4 +37,8 @@ h2{
 
 #con4{
     border: 0.15rem solid rgb(77, 21, 122);
+}
+
+p{
+    font-size: 1.429rem;
 }
