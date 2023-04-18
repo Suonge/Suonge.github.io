@@ -164,6 +164,11 @@ main h1{
     background-size: cover;
 }
 
+#creations{
+    background-image: url(/images/creations/heritiers.jpg);
+    background-size: cover;
+}
+
 .blanc{
     width: inherit;
     height: inherit;
