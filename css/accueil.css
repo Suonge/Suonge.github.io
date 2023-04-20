@@ -169,6 +169,12 @@ main h1{
     background-size: cover;
 }
 
+#tailles{
+    background-image: url(/images/tailles/fond.png);
+    background-size: cover;
+    background-position-y: 50%;
+}
+
 .blanc{
     width: inherit;
     height: inherit;
