@@ -105,10 +105,27 @@ video{
     display: none;
 }
 
+#Dimages{
+    display: none;
+}
+
+
 #Dmusiques{
     display: none;
 }
 
 #Dmemes{
-    display: none;
+    display: flex;
+}
+
+#messenger{
+    width: 30%;
+}
+
+#table{
+    width: 50%
+}
+
+#reve{
+    width: 70%;
 }
